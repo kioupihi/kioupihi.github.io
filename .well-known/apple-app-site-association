@@ -1,8 +1,25 @@
 {
-  "applinks": [
-    {
-      "appID": "7MM73SMMT5.fr.myned.cicd",
-      "paths": ["/form"]
-    }
-  ]
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "7MM73SMMT5.fr.myned.cicd"
+        ],
+        "paths": [
+          "/form"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "7MM73SMMT5.fr.myned.cicd"
+    ]
+  }
 }
